@@ -378,13 +378,14 @@ background-color: white;
 overflow: scroll;
 }
 	
-#footer{
-position:relative;
-top:700px;
-width: 100%;
-background-color:black;
-color: white;
-text-align: left;
+.footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color:black;
+    color: white;
+    text-align: center;
 
 }
 
@@ -392,4 +393,14 @@ text-align: left;
 div.content-area,
 div.page {
     margin-bottom: 0em;
+}
+
+#navbar{
+    width: 30%;
+    float: left;
+}
+
+#container{
+    width: 70%;
+    float: left;
 }
